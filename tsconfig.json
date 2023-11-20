@@ -5,15 +5,9 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": true,
-    "lib": [
-      "esnext"
-    ],
-    "types": [
-      "@cloudflare/workers-types",
-      "node",
-      "vite/client",
-    ],
+    "lib": ["esnext"],
+    "types": ["@cloudflare/workers-types", "node", "vite/client"],
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
-  },
+  }
 }
