@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "vite build && vite build --mode client",
 		"dev": "vite",
-		"deploy": "$npm_execpath build && wrangler pages deploy ./dist",
+		"deploy": "wrangler pages deploy ./dist",
 		"format": "biome format --write ./app",
 		"lint": "biome lint ./app",
 		"check": "biome check --apply ./app"
