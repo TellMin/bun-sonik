@@ -1,0 +1,9 @@
+node_modules
+dist
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.tgz
+sandbox
+test-results
+playwright-report
